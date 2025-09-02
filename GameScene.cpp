@@ -98,6 +98,7 @@ void GameScene::Update() {
 		}
 		++it;
 	}
+
 	// プレイヤーの当たり判定と物理計算
 	for (auto platform : platforms_) {
 		const AABB& platformAABB = platform->GetAABB();
